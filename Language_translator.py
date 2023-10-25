@@ -1,6 +1,6 @@
 # importing libraries
 import streamlit as st
-from streamlit_option_menu import option_menu
+#from streamlit_option_menu import option_menu
 from googletrans import Translator
 import easyocr
 import cv2
@@ -15,9 +15,9 @@ st.set_page_config(page_title='Translator', page_icon='🤓', layout='wide')
 
 with st.sidebar:
     with st.container():
-        choose = option_menu("Translation app",
+        choose = st.selectbox("Translation app",
                              ["Language Translator", "Image Translation"],
-                             icons=[],
+                             
                              )
         
 
