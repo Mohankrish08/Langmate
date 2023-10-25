@@ -2,5 +2,5 @@ streamlit==1.21.0
 streamlit-option-menu
 numpy
 opencv-python == 4.8.1
-googletrans
+googletrans == 3.0.0
 easyocr
